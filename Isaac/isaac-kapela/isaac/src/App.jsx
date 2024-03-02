@@ -1,13 +1,13 @@
-import Login from "./components/registro/registro";
+import Registro from "./components/registro/registro";
 
-import './App.sass'
+import './App.scss'
 
 function App() {
   
   return (
     <>
     <div className="app-container">
-      <Login/>
+      <Registro/>
     </div>
 
     </>

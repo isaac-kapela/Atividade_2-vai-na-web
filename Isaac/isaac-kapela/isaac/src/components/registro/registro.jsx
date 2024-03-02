@@ -1,6 +1,6 @@
 // import registro from "./registrocss";
 import AddAvatar from "../../assets/img/add avatar.png";
-import '../../App'
+import '../../App.scss';
 
 
 const registro = () => {
@@ -14,7 +14,7 @@ const registro = () => {
                 <input type="password" placeholder="Digite a sua senha" />
                 <input type="file" id="file"  style={{dispaly:'none' }}/>
                 <label htmlFor="file">
-                    <img src={AddAvatar} alt="" />
+                    <img className="imagem" src={AddAvatar} alt="" />
                     <span>Adiciona o avatar</span>
                 </label>
                 <button>registrar</button>
