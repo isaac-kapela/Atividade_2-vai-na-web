@@ -1,0 +1,33 @@
+*{
+padding: 0;  
+margin: 0;
+box-sizing: border-box;
+font-family:"Helvetica Neue", Hel
+}
+
+.app-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.registro-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #5dc9fb;
+    padding: 2rem;
+    height: auto;
+    text-align: center;
+    width: 500px;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+
+    }
+
+
+}
