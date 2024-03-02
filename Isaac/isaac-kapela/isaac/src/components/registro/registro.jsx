@@ -6,7 +6,7 @@ import '../../App.scss';
 const registro = () => {
     return (
         <div className="registro-container">
-            <span className="titulo">plus chat</span>
+            <span className="titulo">KAPELA</span>
             <span className="subTitulo">Registro</span>
             <form>
                 <input type="text" placeholder="Digite o seu nome" />
